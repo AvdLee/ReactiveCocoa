@@ -28,7 +28,6 @@
 	},
 	"frameworks": "Foundation",
 	"default_subspecs": "UI",
-	"prepare_command": "sed -i '' 's@<ReactiveCocoa/\\(.*\\)>@\"\\1\"@g' ReactiveCocoa/ReactiveCocoa.h",
 	"subspecs": [{
 		"name": "no-arc",
 		"source_files": "ReactiveCocoa/Objective-C/RACObjCRuntime.{h,m}",
